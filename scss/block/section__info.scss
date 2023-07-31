@@ -1,0 +1,86 @@
+.info__box {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  &-img {
+    height: 600px;
+    margin-right: 50px;
+  }
+  &-image{
+    background-image: url('/images/src/гол.фото.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-width: 426px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  &-star-img{
+    padding-top: 20px;
+    position: relative;
+    right: 45px;
+  }
+  &-city-name{
+    position: relative;
+    text-transform: uppercase;
+    left: 379px;
+    color: #8850CF;
+    &-second{
+      color: #fff;
+    }
+  }
+  &-year-old{
+    text-transform: uppercase;
+    position: relative;
+    right: 45px;
+    padding-bottom: 20px;
+  }
+}
+
+.info__second {
+  &-first {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+  }
+  &-wrapper {
+    display: flex;
+    align-items: center;
+  }
+  &-name {
+    margin-right: 22px;
+    padding: 3px 33px;
+    border: 1px solid #fff;
+    border-radius: 16px;
+  }
+  &-number{
+    text-transform: uppercase;
+    font-size: 24px;
+  }
+  &-hello {
+    margin-bottom: 100px;
+    display: flex;
+    align-items: flex-end;
+    color: #F2F2F2;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  &-greeting{
+    font-weight: 300;
+  }
+  &-wrap{
+    margin-right: 15px;
+  }
+  &-text{
+    font-size: 28px;
+    font-weight: 300;
+    max-width: 540px;
+  }
+}
+.first-word{
+    color: #8850CF;
+}

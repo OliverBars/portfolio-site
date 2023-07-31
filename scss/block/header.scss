@@ -1,0 +1,26 @@
+.header {
+  margin-bottom: 50px;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 20px;
+  margin-top: 20px;
+  &__menu {
+    border-top: solid 1px #fff;
+    border-bottom: solid 1px #fff;
+  }
+  &__menu-ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  &__menu-list {
+    margin: 20px 0;
+  }
+  &__menu-list:nth-child(1) {
+    color: #0d0d0d;
+    font-weight: 600;
+    background-color: #fff;
+    padding: -20px;
+    border-radius: 16px;
+    padding: 3px 8px;
+  }
+}

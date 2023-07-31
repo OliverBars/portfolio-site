@@ -1,0 +1,25 @@
+* {
+  text-decoration: none;
+
+}
+
+a {
+  display: inline-block;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+.container {
+  max-width: 1330px;
+  margin: 0 auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+body{
+  font-family: 'Inter', sans-serif;
+  color: #fff;
+  background-color: #0D0D0D;
+  font-weight: 300;
+}
