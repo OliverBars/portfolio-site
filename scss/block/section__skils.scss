@@ -1,0 +1,113 @@
+.skils__box {
+  &-title {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 30px;
+  }
+  &-text {
+    font-size: 64px;
+    font-weight: 400;
+    max-width: 840px;
+  }
+}
+.skils__first {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  margin-bottom: 80px;
+
+  &-background {
+    background-image: url(../images/src/my.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 500px;
+    margin-right: 50px;
+  }
+  &-img {
+    position: relative;
+    top: 133px;
+    left: 395px;
+  }
+  & p {
+    font-size: 24px;
+    font-style: normal;
+    text-transform: uppercase;
+    max-width: 95px;
+    position: relative;
+    left: -12px;
+    top: 252px;
+  }
+  &-info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 77px;
+  }
+  &-title {
+    font-size: 64px;
+  }
+  &-image {
+    padding-right: 40px;
+  }
+}
+.skils__second {
+  &-parag {
+    font-size: 28px;
+    max-width: 472px;
+    margin-bottom: 30px;
+  }
+  &-named {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+  &-num {
+    font-size: 28px;
+    border: 1px solid #fff;
+    border-radius: 16px;
+    padding: 2px 20px;
+    margin-right: 25px;
+  }
+}
+.skils__title {
+  &-text {
+    font-size: 28px;
+    font-family: "iceberg" sans-serif;
+    leading-trim: both;
+    text-edge: cap;
+    font-size: 28px;
+    font-style: normal;
+    line-height: normal;
+  }
+  &-text span {
+    color: #8850cf;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Iceberg;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
+
+.skils__stars img {
+  width: 600px;
+  height: auto;
+  animation: rotation 40s infinite linear; /* Анімація обертання */
+  transform-origin: center center; /* Центр обертання */
+}
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg); /* Початкова позиція обертання */
+  }
+  100% {
+    transform: rotate(360deg); /* Кінцева позиція обертання */
+  }
+}
+.skils__stars{
+  display: flex;
+  justify-content: center;
+}

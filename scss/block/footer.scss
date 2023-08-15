@@ -1,0 +1,49 @@
+.footer__box {
+    align-items: center;
+    text-align: center;
+  &-text{
+    text-align: center;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 58px;
+  }
+  &-text span{
+    color: #8850CF;
+  }
+  &-button{
+    display: inline-block;
+    padding: 16px 60px;
+    margin-bottom: 58px;
+  }
+  &-link{
+
+  }
+  &-contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+  &-contact-diana{
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    & p, a {
+        margin-bottom: 10px;
+    }
+    & img{
+        position: relative;
+        top: 5px;
+    }
+
+  }
+}
