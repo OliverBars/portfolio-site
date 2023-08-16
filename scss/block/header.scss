@@ -11,6 +11,7 @@
   &__menu-ul {
     display: flex;
     justify-content: space-around;
+    align-items: center;
   }
   &__menu-list {
     margin: 20px 0;
@@ -23,4 +24,5 @@
     border-radius: 16px;
     padding: 3px 8px;
   }
+
 }
