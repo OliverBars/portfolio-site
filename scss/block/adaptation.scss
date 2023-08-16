@@ -106,15 +106,23 @@
   .skils__stars img{
     display: inline-block;
     width: 50%;
-    &-wrapper{
-      margin: 0 auto;
-    }
+    position: relative;
+    top: 0px;
+    left: 110px;
   }
   .jobs__box {
     flex-direction: column-reverse;
     &-paragraph {
       writing-mode: horizontal-tb;
     }
+    &-number{
+      text-align: center;
+    }
+    &-element img{
+      position: relative;
+      left: 83px;
+    }
+    padding-bottom: 40px;
   }
   .skils__box {
     &-text {
@@ -209,5 +217,8 @@
     &-text-img-1-wrap {
       width: 200px;
     }
+  }
+  .skils__stars img{
+    display: none;
   }
 }
