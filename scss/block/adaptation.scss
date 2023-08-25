@@ -156,6 +156,9 @@
     &-contact-gmail{
       font-size: 19px;
     }
+    &-button a{
+      margin-bottom: 0;
+    }
   }
 }
 @media (max-width: 600px) {
@@ -225,6 +228,9 @@
     }
     &-hello{
       margin-bottom: 50px;
+    }
+    &-greetings{
+      margin-bottom: 0;
     }
   }
 }

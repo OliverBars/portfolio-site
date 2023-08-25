@@ -25,44 +25,44 @@ gsap.from(".info__second-text", {
 gsap.from(".element-1", {
   opacity: 0,
   duration: 1.1,
-  x: -600,
+  x: -500,
   scrollTrigger: {
     trigger: ".element-1",
     start: "top 80%",
-    end: "bottom 20%",
+    end: "bottom 80%",
     scrub: true,
   },
 });
 gsap.from(".element-2", {
   opacity: 0,
   duration: 1.6,
-  x: -600,
+  x: -500,
   scrollTrigger: {
     trigger: ".element-1",
     start: "top 80%",
-    end: "bottom 20%",
+    end: "bottom 80%",
     scrub: true,
   },
 });
 gsap.from(".element-3", {
   opacity: 0,
   duration: 1.8,
-  x: -600,
+  x: -500,
   scrollTrigger: {
     trigger: ".element-1",
     start: "top 80%",
-    end: "bottom 20%",
+    end: "bottom 80%",
     scrub: true,
   },
 });
 gsap.from(".element-4", {
   opacity: 0,
   duration: 2,
-  x: -600,
+  x: -500,
   scrollTrigger: {
-    trigger: ".element-2",
+    trigger: ".element-1",
     start: "top 80%",
-    end: "bottom 20%",
+    end: "bottom 80%",
     scrub: true,
   },
 });
