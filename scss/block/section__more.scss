@@ -16,6 +16,7 @@
     display: flex;
     justify-content: center;
 
+
   }
   &-element {
     max-width: 336px;
@@ -27,12 +28,15 @@
     margin-bottom: 60px;
     justify-content: space-between;
     align-items: center;
+    position: relative;
+    top: -40px;
   }
   &-top {
     font-size: 32px;
     font-weight: 600;
     position: relative;
-    top: 60px;
+    top: 130px;
+    margin-bottom: 100px;
   }
 
   &-paragraph {
@@ -44,12 +48,13 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin: 0 0 50px 0;
   }
 }
 .otstup{
-    margin-bottom: 160px;
-    top: -84px;
+  margin-bottom: 131px;
+    top: -45px;
   }
   .more__box-wrapper .more__box-element:nth-child(2) .more__box-top {
-    top: 0px;
+    top: 65px;
   }
